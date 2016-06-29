@@ -1,5 +1,5 @@
 /*
-	We Kill People™
+	We Kill Peopleâ„¢
 	R-21 Limited.
 */
 
@@ -62,7 +62,7 @@ char* getip()
 
 	if ((recv_size = recv(s, server_reply, 2000, 0)) == SOCKET_ERROR)
 	{
-		puts("recv failed");
+		return "";
 	}
 
 
